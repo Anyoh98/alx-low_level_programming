@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- *
+ * Description: prints numbers from 0 - 9
  * return: always (0)
  */
 
@@ -14,5 +14,6 @@ int main(void)
 	{
 		printf("%d", numb);
 	}
+	putchar('\n');
 	return 0;
 }

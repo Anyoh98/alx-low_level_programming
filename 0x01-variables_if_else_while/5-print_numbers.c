@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prints numbers from 0 - 9
+ * main - Entry point
+ *
+ * Description: Print numbers from 0-9
  *
  * return: always (0)
  */

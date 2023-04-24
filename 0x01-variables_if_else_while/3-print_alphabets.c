@@ -8,17 +8,17 @@
  */
 int main(void)
 {
-	int n = 97;
-	int m = 65;
+	int lowerCase = 'a';
+	int upperCase = 'A';
 
-	while (n <= 122)
+	while (lowerCase <= 'z')
 	{
-		putchar(n);
-		n++;
+		putchar(lowerCase);
+		lowerCase++;
 	}
-	while (m <= 98)
+	while (upperCase <= 'Z')
 	{
-		putchar(m);
+		putchar(upperCase);
 		m++;
 	}
 	putchar('\n');

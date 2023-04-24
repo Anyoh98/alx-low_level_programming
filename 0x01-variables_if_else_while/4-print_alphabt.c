@@ -8,9 +8,9 @@
 
 int main(void)
 {
-	int lowerCase = 97;
+	int lowerCase;
 
-	for(lowerCase = 97; lowerCase < 123; lowerCase++)
+	for(lowerCase = 97; lowerCase < 123; i++)
 	{
 		if(lowerCase != 101 || lowerCase != 113)
 		{

@@ -2,9 +2,7 @@
 
 /**
  * main - Entry point
- *
  * Description: Print numbers from 0-9
- *
  * return: always (0)
  */
 

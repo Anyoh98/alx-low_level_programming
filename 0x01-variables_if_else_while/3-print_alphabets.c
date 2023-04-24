@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: get the last digit of a number
+ *
  * Return: Always 0
  */
 int main(void)
@@ -19,7 +19,7 @@ int main(void)
 	while (upperCase <= 'Z')
 	{
 		putchar(upperCase);
-		m++;
+		upperCase++;
 	}
 	putchar('\n');
 	return (0);

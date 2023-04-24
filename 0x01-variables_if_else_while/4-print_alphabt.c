@@ -10,9 +10,9 @@ int main(void)
 {
 	int lowerCase = 97;
 
-	for(lowerCase = 97; lowerCase <= 122; lowerCase++)
+	for(lowerCase = 97; lowerCase < 123; lowerCase++)
 	{
-		if(lowerCase != 101 && lowerCase != 122)
+		if(lowerCase != 101 || lowerCase != 113)
 		{
 			putchar(lowerCase);
 		}

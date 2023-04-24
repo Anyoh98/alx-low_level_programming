@@ -2,7 +2,7 @@
 
 /**
  * main: Entry point
- * Description:Print lower case alphabet in reverse
+ * description:Print lower case alphabet in reverse
  * Return: Always 0
  */
 

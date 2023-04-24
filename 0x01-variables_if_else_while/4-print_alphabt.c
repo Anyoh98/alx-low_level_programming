@@ -10,7 +10,7 @@ int main(void)
 {
 	int lowerCase;
 
-	for(lowerCase = 97; lowerCase < 123; i++)
+	for(lowerCase = 97; lowerCase < 123; lowerCase++)
 	{
 		if(lowerCase != 101 || lowerCase != 113)
 		{

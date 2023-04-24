@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	int lowerCase = 97
+	int lowerCase = 97;
 
 	for(lowerCase = 97; lowerCase <= 122; lowerCase++)
 	{

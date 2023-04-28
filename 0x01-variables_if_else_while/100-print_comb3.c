@@ -1,31 +1,34 @@
 #include <stdio.h>
 
 /**
- * main - Prints the numbers from 00 to 99, numbers separated by
- *        a comma followed by a space, in ascending order.
- *
- * Return: Always 0.
- */
+ * main - Print all possible different combinations of 2 digits
+ * Return: Always 0 (sucesses)
+*/
+
 int main(void)
 {
-	int digit1, digit2;
+    int n;
+    int m;
 
-	for (digit1 = 0; digit1 < 10; digit1++)
-	{
-		for (digit2 = 0; digit2 < 10; digit2++)
-		{
-			putchar((digit1 % 10) + '0');
-			putchar((digit2 % 10) + '0');
-
-			if (digit1 == 9 && digit2 == 9)
-				continue;
-			
-			putchar(',');
-			putchar(' ');
-		}
-	}
-
-	putchar('\n');
-
-	return (0);
+    for (n = 48; n < 58; n++)
+    {
+        for (m = n + 1; m < 58; m++)
+        {
+             if (m != n )
+            {
+                putchar(n);
+                putchar(m);
+            }
+            if (n == 56 && m == 57)
+            {
+                continue;
+            }
+            putchar(44);
+            putchar(32);
+        }
+    }
+    putchar('\n');
+    return (0);   
+    
 }
+

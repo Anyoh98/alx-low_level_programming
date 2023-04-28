@@ -8,13 +8,13 @@
 int main(void)
 {
 	int n;
-       	int m;
+	int m;
 
-       	for (n = 48; n < 58; n++)
+	for (n = 48; n < 58; n++)
 	{
 		for (m = n + 1; m < 58; m++)
 		{
-		       	if (m != n )
+			if (m != n)
 			{
 				putchar(n);
 				putchar(m);

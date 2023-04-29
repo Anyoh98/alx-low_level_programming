@@ -19,11 +19,15 @@ int main(void)
 			{
 				if (k == j && k == i)
 				{
-					continue;    
+					continue;
 				}
 				putchar(i);
 				putchar(j);
 				putchar(k);
+				if (k == 57 && j == 56 && i == 55)
+				{
+					break;
+				}
 				putchar(44);
 				putchar(32);
 			}

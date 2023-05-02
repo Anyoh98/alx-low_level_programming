@@ -14,10 +14,9 @@ void print_times_table(int n)
 
 	if (n <= 15 && n >= 0)
 	{
+		result = i * j;
 		for (i = 0; i <= n; i++)
 		{
-			result = i * j;
-
 			for (j = 0; j <= n; j++)
 			{
 				if (result < 100 && result > 10)

@@ -42,7 +42,7 @@ void print_times_table(int n)
 					_putchar(',');
 					_putchar(' ');
 					_putchar(result / 100 + 48);
-					_putchar(result % 10 + 48);
+					_putchar((result / 10) % 10 + 48);
 					_putchar(result % 10 + 48);
 				}
 			}

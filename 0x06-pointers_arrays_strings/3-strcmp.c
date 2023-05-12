@@ -26,24 +26,18 @@ int _strcmp(char *s1, char *s2)
 	if (s1[count1] == s2[count2])
 	{
 		int i = 0;
-		int comp = 0;
 
 		while (s1[i] != '\0' && s2[i] != '\0')
 		{
 			if (s1[i] == s2[i])
 			{
-				comp++;
+				return (0);
+			}
+			else if (s1[i] != s2[i])
+			{
+				return (s1[i] - s2[i]);
 			}
 			i++;
 		}
-		if (comp == i)
-		{
-			return (1);
-		}
-		else
-		{
-		return (0);
-		}
 	}
-	return (0);
 }

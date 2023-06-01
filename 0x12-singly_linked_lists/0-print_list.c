@@ -15,7 +15,12 @@ size_t print_list(const list_t *h)
 	{
 		if (h->str != NULL)
 		{
-			printf("[%u] %s\n", h->len, h->str);
+			size_t length = 0;
+			while (h->str[length] != '\0')
+			{
+				length++;
+			}
+			printf("[%lu] %s\n", length, h->str);
 		}
 		else
 		{

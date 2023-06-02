@@ -4,18 +4,18 @@
 msg:	db "Hello, holberton", 0
 fmt:    db "%s", 10, 0
 
-        section .text           ; contains executable function of theprg
+        section .text
 
-        global main		; decalres main as the entry point
-main:				; the program label for the entry point
-        push    rbp		; set up stack frame, must be alligned
+        global main
+main:
+        push    rbp
 	
-	mov	rdi,fmt		;moves addressof the fmt string to rdi register wc is 1rst arg reg.
+	mov	rdi,fmt
 	mov	rsi,msg
-	mov	rax,0		; clear the rax register
-        call    printf		; Call printf or C function
+	mov	rax,0
+        call    printf
 
-	pop	rbp		; restore stack
+	pop	rbp
 
-	mov	rax,0		; system call number for exit, exit status0
-	ret			; return
+	mov	rax,0
+	ret

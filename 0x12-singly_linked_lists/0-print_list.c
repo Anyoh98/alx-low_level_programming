@@ -16,6 +16,7 @@ size_t print_list(const list_t *h)
 		if (h->str != NULL)
 		{
 			size_t length = 0;
+
 			while (h->str[length] != '\0')
 			{
 				length++;
